@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('/img1.jpg');
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.left {
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+}
+
+.mid {
+    /* border: 2px solid red; */
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.left img {
+
+    width: 50px;
+    filter: invert(100%);
+
+    padding-left: 21px;
+    padding-top: 5px;
+
+}
+
+.left div {
+    text-align: center;
+}
+
+.btn {
+    background-color: black;
+    margin: 0px 9px;
+    color: white;
+    padding: 4px 14px;
+    border: 3px solid grey;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 130px 80px;
+    padding: 29px 27px;
+    width: 33%;
+    border-radius: 32px;
+
+}
+
+.form-group input {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 257px;
+    padding: 12px;
+    border: 2px solid black;
+    margin: 19px auto
+    
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 67%;
+    margin: auto;
+}
